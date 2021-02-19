@@ -1,0 +1,13 @@
+.bigCard {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+.bigCard > img {
+  max-width: 90%;
+  border-radius: 10px;
+}
+.bigCard > strong {
+  font-size: 18px;
+  padding-top: 10px;
+}

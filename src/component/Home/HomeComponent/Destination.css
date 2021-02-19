@@ -1,0 +1,18 @@
+.destination {
+  position: absolute;
+  top: 80px;
+  display: flex;
+  justify-content: space-around;
+  width: 300px;
+  height: 80px;
+  transform: translateX(-55%);
+  align-items: center;
+  line-height: 40px;
+  border-radius: 999px;
+  background-color: white;
+}
+.destination__pic {
+  max-height: 70%;
+  margin-left: 10px;
+  object-fit: contain;
+}

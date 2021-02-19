@@ -1,0 +1,34 @@
+.feature {
+  width: 85%;
+  margin: 20px auto;
+}
+.feature__choice {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.feature__second {
+  width: 110%;
+  transform: translateX(-5%);
+  margin: 0 !important;
+  background-color: black;
+  color: white;
+}
+.feature__second > .feature__choice {
+  margin-left: 20px;
+}
+.feature__second > h2,
+.feature__second > p {
+  margin-left: 20px;
+}
+.feature__second > h2 {
+  padding-top: 20px;
+}
+.feature__third {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.feature__third > h2 {
+  font-size: 25px;
+  margin-top: 40px;
+}

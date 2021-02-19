@@ -1,0 +1,17 @@
+.card {
+  width: 250px;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+.card > img {
+  max-height: 80%;
+  object-fit: contain;
+  border-radius: 10px;
+}
+.card__info {
+  height: 70px;
+}
+.card__info > p {
+  margin: 5px 0;
+}

@@ -1,0 +1,90 @@
+.banner {
+  position: relative;
+  min-height: 80vh;
+  background: url(https://a0.muscache.com/im/pictures/cf39f4c4-e860-43d4-85be-deddd7b2da90.jpg?im_w=1440)
+    no-repeat center center;
+}
+.banner__search {
+  width: 60%;
+  height: 70px;
+  margin: 10px auto;
+  background-color: white;
+  border-radius: 999px;
+  display: flex;
+  position: relative;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-87%);
+  justify-content: center;
+  z-index: 5;
+}
+.banner__search > button {
+  width: 200px;
+  height: 70px;
+  background-color: white;
+  color: black;
+  margin-left: 20px;
+  border-radius: 30px;
+  outline: none;
+  border: none;
+}
+.banner__search > button:hover {
+  background-color: lightgray;
+}
+.banner__search > .banner__searchButton {
+  width: 50px;
+  height: 50px;
+  line-height: 70px;
+  position: absolute;
+  margin-top: 10px;
+  background-color: #f12a5c;
+  position: absolute;
+  border-radius: 50%;
+  right: 10px;
+  border: 0;
+  outline: none;
+}
+.banner__search > .banner__searchButton > .banner__searchIcon {
+  color: white;
+}
+.banner__info {
+  position: relative;
+  background-color: transparent;
+  color: white;
+
+  padding-top: 12vh;
+  padding-left: 70px;
+  padding-right: 50px;
+  padding-bottom: 40px;
+  width: 400px;
+}
+
+.banner__destination {
+  height: 20px;
+  outline: 0;
+  border: none;
+  background-color: white;
+}
+.banner__destination:focus {
+  background-color: white;
+}
+
+.banner__info > h1 {
+  font-size: 40px;
+}
+.banner__info > h5 {
+  margin-top: 10px;
+  font-size: 20px;
+}
+.banner__info > button {
+  background-color: white;
+  color: black;
+  margin-left: 30px;
+  line-height: 20px;
+  border-radius: 10px;
+  font-size: 14px;
+  text-transform: none;
+}
+.banner__info > button:hover {
+  background-color: lightgray !important;
+}
