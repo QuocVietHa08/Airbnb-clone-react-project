@@ -1,0 +1,203 @@
+.servicePage {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.servicePage__overview {
+}
+.servicePage__overview__header {
+  position: relative;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.servicePage__overview__header
+  > .servicePage__overview__header-name
+  > .ratingInfo {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  height: 30px;
+}
+.servicePage__overview-header-option {
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+}
+.servicePage__overview__picture {
+  width: 100%;
+  height: 450px;
+  overflow: hidden;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  display: grid;
+  grid-gap: 10px;
+  border-radius: 10px;
+  grid-template-columns: 50% 50%;
+}
+.servicePage__overview__picture > .big-pic {
+  max-width: 100%;
+}
+.big-pic > img {
+  max-width: 100%;
+}
+.servicePage__overview__picture > .other-pic {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 25% 25%;
+}
+.other-pic > img {
+  width: 100%;
+  height: 100%;
+}
+.servicePage__overview__footer {
+  width: 60%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+}
+.servicePage__overview__footer > p {
+  font-size: 20px;
+}
+.servicePage__allInfo {
+  display: flex;
+}
+.servicePage__allInfo > .servicePage__mainInfo {
+  width: 60%;
+}
+.servicePage__mainInfo > .servicePage__info {
+  border-bottom: 1px solid #ddd;
+}
+.servicePage__info > .info-item {
+  display: flex;
+  width: 100%;
+  height: 30px;
+  line-height: 25px;
+  margin: 15px 10px;
+  margin-bottom: 60px;
+}
+.info-item > div {
+  margin-left: 20px;
+}
+.servicePage__mainInfo > .servicePage__contact {
+  width: 100%;
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+.servicePage__contact > p {
+  font-size: 18px;
+}
+.servicePage__contact > strong {
+  font-size: 20px;
+}
+.servicePage__contact > strong:hover {
+  text-decoration: underline;
+}
+.servicePage__feature {
+}
+.servicePage__feature > .feature {
+  width: 100%;
+  margin-top: 20px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+.feature > .feature__button {
+  width: 30%;
+  height: 50px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+.feature > .feature__button:hover {
+  border: 1px solid black;
+}
+.feature__button > p {
+  margin: 0;
+  font-size: 20px;
+}
+.feature > .list-feature {
+  width: 100%;
+  height: inherit;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 15px 0;
+}
+.feature > .feature-item {
+  width: 50%;
+  height: 30px;
+  margin: 10px 0px;
+}
+.feature-item > p {
+  margin-top: 10px;
+}
+.feature__rangeDate {
+  position: relative;
+  width: 100%;
+  height: 350px;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+.feature__rangeDate > div:first-child {
+  position: absolute;
+  left: 30px;
+  top: 10px;
+}
+.servicePage__register {
+  height: 250px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+}
+.servicePage__register > .register__form {
+  width: 80%;
+}
+.servicePage__register > .register__form > label {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 10px;
+}
+.register__form > form {
+  width: 100%;
+  line-height: 35px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+.register__form > form > div {
+  display: flex;
+}
+.register__form > form > input {
+  width: 100%;
+  border: none;
+  border: 1px solid #ddd;
+}
+
+.register__form > form > div > input {
+  width: 50%;
+  border-left: 1px solid #ddd;
+  outline: none;
+  border: none;
+}
+.register__form > form > input::placeholder {
+  margin-left: 20px;
+}
+.register__form > button {
+  width: 100%;
+  height: 45px;
+  border-radius: 10px;
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  background: linear-gradient(#f22a55, #ca135e);
+}

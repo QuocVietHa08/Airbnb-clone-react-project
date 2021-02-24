@@ -5,4 +5,11 @@
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+.city > a {
+  text-decoration: none;
+  color: black;
 }

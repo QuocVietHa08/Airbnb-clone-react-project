@@ -1,19 +1,45 @@
 import { Button } from '@material-ui/core';
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import './Banner.css';
 import Search from '../../../Search';
 import SearchIcon from '@material-ui/icons/Search';
 import Destination from './Destination';
 import Guest from './Guest';
+import { set } from 'date-fns/esm';
+let useClickOutside = (handler) => {
+  let domNode = useRef();
+
+  useEffect(() => {
+    let maybeHandler = (event) => {
+      if (!domNode.current.contains(event.target)) {
+        handler();
+      }
+    };
+
+    document.addEventListener('mousedown', maybeHandler);
+
+    return () => {
+      document.removeEventListener('mousedown', maybeHandler);
+    };
+  });
+
+  return domNode;
+};
 function Banner() {
   const [showSearch, setShowSearch] = useState(false);
   const [showDestination, setDestination] = useState(false);
   const [showGuest, setShowGuest] = useState(false);
+  let domNode = useClickOutside(() => {
+    setShowGuest(false);
+    setDestination(false);
+    setShowSearch(false);
+  });
   return (
     <div className='banner'>
       <div className='banner__search'>
         {/* Destination  */}
         <button
+          ref={domNode}
           onClick={() => {
             setDestination(!showDestination);
           }}>
@@ -26,16 +52,18 @@ function Banner() {
         </button>
         {showDestination && <Destination />}
         {/* Add date */}
-        <butaton
+        <button
+          ref={domNode}
           onClick={() => {
             setShowSearch(!showSearch);
           }}>
           <strong> Set date</strong>
           <p>Find your perfect time?</p>
-        </butaton>
+        </button>
         {showSearch && <Search />}
         {/* Guest */}
         <button
+          ref={domNode}
           onClick={() => {
             setShowGuest(!showGuest);
           }}>

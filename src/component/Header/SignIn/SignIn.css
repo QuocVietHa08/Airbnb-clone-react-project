@@ -1,0 +1,97 @@
+.signIn {
+  width: 40%;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin: 50px auto;
+  text-align: center;
+}
+.signIn > form {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.signIn > form > input {
+  width: 100%;
+}
+.signIn__input {
+  width: 80%;
+  margin: 0 auto;
+}
+.signIn > form {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.signIn > form > input::placeholder {
+  padding-left: 20px;
+}
+.signIn > form > small {
+  padding: 10px 0;
+  font-size: 15px;
+}
+.signIn > form > button {
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+  background-color: #e11561;
+}
+.signIn__horizon {
+  position: relative;
+}
+.signIn__horizon::before {
+  content: '';
+  width: 40%;
+  height: 1px;
+  background-color: #e3e3e3;
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  z-index: 1;
+}
+.signIn__horizon::after {
+  content: '';
+  width: 40%;
+  height: 1px;
+  background-color: #e3e3e3;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  z-index: 1;
+}
+.signIn__account {
+  padding: 10px 0;
+  margin: 0px auto;
+  margin-bottom: 20px;
+  width: 80%;
+  height: 50px;
+  line-height: 30px;
+  border: 1px solid #ddd;
+  display: flex;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+.signIn__account:hover {
+  border: 1px solid black;
+}
+.signIn__account > .signIn__icon {
+  margin-left: 20px;
+}
+.signIn__account > p {
+  margin: 0;
+  padding-left: 20%;
+}

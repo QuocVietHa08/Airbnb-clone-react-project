@@ -1,0 +1,114 @@
+.host {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+.host__header {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ddd;
+}
+.host__header > a > .host__headerLogo {
+  max-width: 100px;
+  margin-left: 50px;
+}
+.host__header > div {
+  margin: auto 0;
+  margin-right: 50px;
+  width: 100px;
+  height: 40px;
+}
+.host__header > div > button {
+  width: 100%;
+  height: 100%;
+  background-color: #e61d52;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.host__main {
+  width: 100%;
+  height: 30%;
+}
+.host__main > .host__mainOne {
+  width: 100%;
+  height: 30%;
+  color: white;
+  background-image: url('https://a0.muscache.com/im/pictures/7c74a1b3-2eb3-4f0e-a2f3-458c7319985a.jpg?im_q=highq&im_w=1680');
+}
+.host__mainOne > div {
+  width: 500px;
+  height: 400px;
+  padding: 80px 0 80px 80px;
+  line-height: 45px;
+  display: flex;
+  flex-direction: column;
+}
+.host__mainOne > div > h1 {
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+.host__mainOne > div > p {
+  margin: 0;
+  font-size: 25px;
+}
+
+.host__mainOne > div > input,
+.host__mainOne > div > option {
+  border: none;
+  border-bottom: 2px solid white;
+  background-color: transparent;
+  outline: none;
+  color: white;
+}
+.host__mainOne > div > button {
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  margin-top: 20px;
+  background: linear-gradient(#8a2387, #e94057, #f27121);
+}
+.host__mainTwo {
+  width: 90%;
+  margin: 0 auto;
+}
+.host__mainTwo > h2 {
+}
+.host__mainTwo > div {
+  display: flex;
+  justify-content: space-between;
+}
+.host__mainTwo > div > .host__guestItem {
+  width: 23%;
+  height: auto;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+.host__guestItem > img {
+  width: 100%;
+  height: 45%;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+.host__guestItem > p {
+  font-size: 18px;
+}
+.host__guestItem > a {
+  color: black;
+}
+.host__mainThree {
+  width: 90%;
+  margin: 20px auto;
+}
+.host__mainThree > div {
+  display: flex;
+  justify-content: space-between;
+}

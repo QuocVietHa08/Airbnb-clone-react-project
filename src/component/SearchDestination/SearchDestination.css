@@ -1,0 +1,37 @@
+.searchDestination {
+  display: flex;
+}
+.destination__result {
+  width: 50%;
+}
+
+.destination__resultHeader {
+  margin-top: 40px;
+  margin-left: 50px;
+}
+.destination__resultHeader > .destination__choose {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  display: flex;
+  height: 70px;
+  border-bottom: 1px solid #ddd;
+}
+.destination__suggest {
+  width: 120px;
+  align-items: center;
+  margin-right: 20px;
+  height: 30px;
+  border: 1px solid lightgray;
+  border-radius: 999px;
+  cursor: pointer;
+}
+.destination__suggest:hover {
+  border-color: black;
+}
+.destination__suggest > p {
+  width: 100%;
+  padding-left: 15px;
+  height: inherit;
+  align-items: center;
+  margin: 0 !important;
+}
