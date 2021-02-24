@@ -1,3 +1,17 @@
+#Some picture of this project
+Main page
+![](https://github.com/QuocVietHa08/Airbnb-clone-react-project/blob/master/src/SomeImage/1.png);
+
+![](https://github.com/QuocVietHa08/Airbnb-clone-react-project/blob/master/src/SomeImage/2.png);
+Some basic design just like Airbnb
+![](https://github.com/QuocVietHa08/Airbnb-clone-react-project/blob/master/src/SomeImage/3.png);
+
+![](https://github.com/QuocVietHa08/Airbnb-clone-react-project/blob/master/src/SomeImage/4.png);
+
+![](https://github.com/QuocVietHa08/Airbnb-clone-react-project/blob/master/src/SomeImage/5.png);
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
